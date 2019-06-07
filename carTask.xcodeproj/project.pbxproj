@@ -8,22 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		3812FA2522A9580700838AFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3812FA2422A9580700838AFB /* AppDelegate.swift */; };
-		3812FA2722A9580700838AFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3812FA2622A9580700838AFB /* ViewController.swift */; };
 		3812FA2A22A9580700838AFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3812FA2822A9580700838AFB /* Main.storyboard */; };
 		3812FA2D22A9580700838AFB /* carTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3812FA2B22A9580700838AFB /* carTask.xcdatamodeld */; };
 		3812FA2F22A9580A00838AFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3812FA2E22A9580A00838AFB /* Assets.xcassets */; };
 		3812FA3222A9580A00838AFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3812FA3022A9580A00838AFB /* LaunchScreen.storyboard */; };
+		3812FA3A22A9581700838AFB /* RequestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3812FA3922A9581700838AFB /* RequestController.swift */; };
+		3812FA3C22A9586D00838AFB /* cars(1).json in Resources */ = {isa = PBXBuildFile; fileRef = 3812FA3B22A9586D00838AFB /* cars(1).json */; };
+		3812FA4022A95C8100838AFB /* GetInfoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3812FA3F22A95C8100838AFB /* GetInfoResponse.swift */; };
+		3812FA4B22A960DC00838AFB /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3812FA4A22A960DC00838AFB /* PersistenceManager.swift */; };
+		3812FA5D22A97DEB00838AFB /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3812FA5C22A97DEB00838AFB /* TableViewController.swift */; };
+		3812FA6F22A9842100838AFB /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3812FA6E22A9842100838AFB /* Cell.swift */; };
+		3812FA7122A9850A00838AFB /* SectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3812FA7022A9850A00838AFB /* SectionCell.swift */; };
+		3812FA7322A9CC9900838AFB /* SaveModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3812FA7222A9CC9900838AFB /* SaveModel.swift */; };
+		3812FA9622A9E80500838AFB /* Model+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3812FA9422A9E80500838AFB /* Model+CoreDataClass.swift */; };
+		3812FA9722A9E80500838AFB /* Model+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3812FA9522A9E80500838AFB /* Model+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3812FA2122A9580700838AFB /* carTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = carTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3812FA2422A9580700838AFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3812FA2622A9580700838AFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3812FA2922A9580700838AFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3812FA2C22A9580700838AFB /* carTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = carTask.xcdatamodel; sourceTree = "<group>"; };
 		3812FA2E22A9580A00838AFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3812FA3122A9580A00838AFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3812FA3322A9580A00838AFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3812FA3922A9581700838AFB /* RequestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestController.swift; sourceTree = "<group>"; };
+		3812FA3B22A9586D00838AFB /* cars(1).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "cars(1).json"; sourceTree = "<group>"; };
+		3812FA3F22A95C8100838AFB /* GetInfoResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetInfoResponse.swift; sourceTree = "<group>"; };
+		3812FA4A22A960DC00838AFB /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		3812FA5C22A97DEB00838AFB /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		3812FA6E22A9842100838AFB /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		3812FA7022A9850A00838AFB /* SectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionCell.swift; sourceTree = "<group>"; };
+		3812FA7222A9CC9900838AFB /* SaveModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveModel.swift; sourceTree = "<group>"; };
+		3812FA9422A9E80500838AFB /* Model+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Model+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3812FA9522A9E80500838AFB /* Model+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Model+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +74,56 @@
 		3812FA2322A9580700838AFB /* carTask */ = {
 			isa = PBXGroup;
 			children = (
+				3812FA4922A960A600838AFB /* Model */,
 				3812FA2422A9580700838AFB /* AppDelegate.swift */,
-				3812FA2622A9580700838AFB /* ViewController.swift */,
+				3812FA9B22A9EFF600838AFB /* View */,
+				3812FA9822A9EFB000838AFB /* Cells */,
+				3812FA9922A9EFD900838AFB /* Controllers */,
 				3812FA2822A9580700838AFB /* Main.storyboard */,
 				3812FA2E22A9580A00838AFB /* Assets.xcassets */,
 				3812FA3022A9580A00838AFB /* LaunchScreen.storyboard */,
+				3812FA3B22A9586D00838AFB /* cars(1).json */,
 				3812FA3322A9580A00838AFB /* Info.plist */,
 				3812FA2B22A9580700838AFB /* carTask.xcdatamodeld */,
 			);
 			path = carTask;
+			sourceTree = "<group>";
+		};
+		3812FA4922A960A600838AFB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3812FA9422A9E80500838AFB /* Model+CoreDataClass.swift */,
+				3812FA9522A9E80500838AFB /* Model+CoreDataProperties.swift */,
+				3812FA7222A9CC9900838AFB /* SaveModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3812FA9822A9EFB000838AFB /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3812FA6E22A9842100838AFB /* Cell.swift */,
+				3812FA7022A9850A00838AFB /* SectionCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		3812FA9922A9EFD900838AFB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3812FA3922A9581700838AFB /* RequestController.swift */,
+				3812FA3F22A95C8100838AFB /* GetInfoResponse.swift */,
+				3812FA4A22A960DC00838AFB /* PersistenceManager.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3812FA9B22A9EFF600838AFB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3812FA5C22A97DEB00838AFB /* TableViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +187,7 @@
 				3812FA3222A9580A00838AFB /* LaunchScreen.storyboard in Resources */,
 				3812FA2F22A9580A00838AFB /* Assets.xcassets in Resources */,
 				3812FA2A22A9580700838AFB /* Main.storyboard in Resources */,
+				3812FA3C22A9586D00838AFB /* cars(1).json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +198,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3812FA2722A9580700838AFB /* ViewController.swift in Sources */,
 				3812FA2D22A9580700838AFB /* carTask.xcdatamodeld in Sources */,
+				3812FA7122A9850A00838AFB /* SectionCell.swift in Sources */,
 				3812FA2522A9580700838AFB /* AppDelegate.swift in Sources */,
+				3812FA9622A9E80500838AFB /* Model+CoreDataClass.swift in Sources */,
+				3812FA6F22A9842100838AFB /* Cell.swift in Sources */,
+				3812FA5D22A97DEB00838AFB /* TableViewController.swift in Sources */,
+				3812FA4022A95C8100838AFB /* GetInfoResponse.swift in Sources */,
+				3812FA9722A9E80500838AFB /* Model+CoreDataProperties.swift in Sources */,
+				3812FA3A22A9581700838AFB /* RequestController.swift in Sources */,
+				3812FA7322A9CC9900838AFB /* SaveModel.swift in Sources */,
+				3812FA4B22A960DC00838AFB /* PersistenceManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
